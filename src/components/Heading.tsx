@@ -1,5 +1,5 @@
 import styles from './Heading.module.css';
-
+console.log(styles);
 export function Heading() {
-  return <h1 className={styles.Heading}>Olá Mundo!</h1>;
+  return <h1 className={styles.heading}>Olá Mundo!</h1>;
 }
